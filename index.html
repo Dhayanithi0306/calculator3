@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style1.css"
 </head>
 <body>
     <div id="calculator">
        <input id="display" readonly>
        <div id="keys">
+           <button onclick="cleardisplay()"id="btn" class="operator">Ac</button>
+           <button onclick="deleteLast()" id="btn" class="operator">C</button>
+           <button onclick="appendToDisplay('%')"id="btn" class="operator">%</button>
            <button onclick="appendToDisplay('+')" id="btn" class="operator">+</button>
            <button onclick="appendToDisplay('7')"id="btn" >7</button>
            <button onclick="appendToDisplay('8')"id="btn" >8</button>
@@ -25,9 +28,14 @@
             <button onclick="appendToDisplay('/')"id="btn" class="operator">/</button>
             <button onclick="appendToDisplay('0')"id="btn" >0</button>
             <button onclick="appendToDisplay('.')"id="btn" >.</button>
-            <button onclick="calculate()"id="btn" >=</button>
-            <button onclick="cleardisplay()"id="btn" class="operator">C</button>
+            <button onclick="appendToDisplay('00')"id="btn" >00</button>
+            <button onclick="calculate()"id="btn1" >=</button>
+          
        </div>
+       <script src="index.js"></script>
+    </div>
+</body>
+</html>
        <script src="index.js"></script>
     </div>
 </body>
