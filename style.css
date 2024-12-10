@@ -24,7 +24,7 @@ body{
     padding:20px;
     font-size: 5rem;
     text-align: left;
-    border: none;
+    border-color: white;
     background-color: hsl(0, 0%, 20%);
     box-shadow:0px 0px 10px grey;
     color:white;
@@ -39,7 +39,7 @@ button{
     width:75px;
     height:75px;
     border-radius:50px;
-     
+    border-color: white;
     background-color: hsl(0,0%,30%);
     color:white;
     font-size: 3rem;
